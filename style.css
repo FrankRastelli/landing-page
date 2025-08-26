@@ -109,3 +109,30 @@ a {
 .info-text {
     width: 200px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-speaker {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
